@@ -5,3 +5,4 @@ sphinx
 git+git://github.com/kyleconroy/webtest.git
 git+git://github.com/kyleconroy/python-oauth2.git
 simplejson
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
