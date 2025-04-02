@@ -1,4 +1,4 @@
-requests==0.7.4
+requests==2.32.0
 mock==0.7.2
 nose==1.1.2
 sphinx
@@ -6,3 +6,6 @@ git+git://github.com/kyleconroy/webtest.git
 git+git://github.com/kyleconroy/python-oauth2.git
 simplejson
 setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.6 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
